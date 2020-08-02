@@ -1,0 +1,19 @@
+{
+  "name": "labhub",
+  "version": "1.0.0",
+  "description": "This is my NodeJS run, Dockerised, Web-Based hub for all of my Lab devices as a lookup, search, and hyperlinks to said devices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theJMC/LabHub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theJMC/LabHub/issues"
+  },
+  "homepage": "https://github.com/theJMC/LabHub#readme"
+}
