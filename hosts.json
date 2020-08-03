@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Raspberry Pi 3",
+        "ip": "192.168.0.110",
+        "services": {
+            "22": {"protocol": "SSH", "desc": "SSH Server"},
+            "53": {"protocol": "DNS", "desc": "PiHole DNS"},
+            "80": {"protocol": "HTTP", "desc": "WebControl Panel"},
+            "420": {"protocol": "API", "desc": "WebControl Server"},
+            "1337": {"protocol": "HTTP", "desc": "HESU Register"}
+        }
+    },
+    {
+        "name": "PC",
+        "ip": "192.168.0.2",
+        "services": {
+            "null": "null"
+        }
+    },
+    {
+        "name": "JamsNuc",
+        "ip": "10.13.37.1",
+        "services": {
+            "22": {"protocol": "SSH", "desc":"SSH Server"},
+            "80": {"protocol": "HTTP", "desc": "Control Web Panel"}
+        }
+    }
+]
